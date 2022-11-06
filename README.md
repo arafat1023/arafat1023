@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Arafat</h1>
-<h3 align="center">A passionate software engineer from Bangladesh</h3>
+<h3 align="center">A passionate software engineer</h3>
 
 - 💬 Ask me about **javascript,vuejs,typescript,reactjs**
 
