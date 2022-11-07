@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Arafat</h1>
 <h3 align="center">A passionate software engineer</h3>
 
-- 💬 Ask me about **javascript,vuejs,typescript,reactjs**
+- 💬 Ask me about **javascript,vuejs,typescript,reactjs,nodejs**
 
 - 📫 How to reach me **arafathossain847@gmail.com**
 
