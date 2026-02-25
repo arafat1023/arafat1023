@@ -11,7 +11,7 @@
 
 ### 👨‍💻 About Me
 
-- 🏢 **Senior Software Engineer** at [Nerddevs Ltd.](https://nerddevs.com) (Singapore/Dhaka) — building production-grade apps for clients across **USA & Europe**
+- 🏢 **Senior Software Engineer** at [Nerddevs Ltd.](https://nerddevs.com) (Dhaka) — building production-grade apps for clients across **USA & Europe**
 - 🏥 Built **TissueConnect** — a clinical MRI analytics platform with Azure Key Vault encryption for spinal disease diagnostics
 - 🎓 Built **Biddaan** — a multi-tenant SaaS education platform with automated Nginx reverse proxy deployment
 - 🤖 Built **AI Mate** — a scalable GPT-powered mobile chatbot with OpenAPI-spec REST APIs
