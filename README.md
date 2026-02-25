@@ -11,7 +11,7 @@
 
 ### 👨‍💻 About Me
 
-- 🏢 **Senior Software Engineer** at [Nerddevs Ltd.](https://nerddevs.com) (Dhaka) — building production-grade apps for clients across **USA & Europe**
+- 🏢 **Senior Software Engineer** at [Nerddevs Ltd.](https://nerddevs.com) (Singapore/Dhaka) — building production-grade apps for clients across **USA & Europe**
 - 🏥 Built **TissueConnect** — a clinical MRI analytics platform with Azure Key Vault encryption for spinal disease diagnostics
 - 🎓 Built **Biddaan** — a multi-tenant SaaS education platform with automated Nginx reverse proxy deployment
 - 🤖 Built **AI Mate** — a scalable GPT-powered mobile chatbot with OpenAPI-spec REST APIs
@@ -62,8 +62,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arafat1023&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=1800" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arafat1023&layout=compact&theme=tokyonight&cache_seconds=1800&langs_count=8" alt="Top Languages" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=arafat1023&theme=tokyonight" alt="Profile Summary" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=arafat1023&theme=tokyonight" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=arafat1023&theme=tokyonight" height="165"/>
 </p>
 
 <p align="center">
