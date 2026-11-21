@@ -32,7 +32,7 @@
 **Highlights**
 
 - 🏥 **Medical imaging platform**: predictive analytics for spinal-disease diagnostics. Led a team of 3; designed the Flask backend, PostgreSQL schemas and secure **Azure** infrastructure for clinical MRI data, including MRI segmentation and muscle-analysis pipelines (PyTorch, DICOM)
-- 🎓 **Biddaan**: multi-tenant EdTech platform (LMS + coaching-centre management) where every institution gets its own site and admin portal
+- 🎓 **Biddaan**: multi-tenant EdTech platform (LMS + coaching-center management) where every institution gets its own site and admin portal
   - Tenant provisioning: per-school subdomains and custom domains, DNS checks, automated Nginx + Let's Encrypt SSL (130+ tenant domains) with health checks and rollback
   - Pro subscription flow with **bKash** payments and post-payment provisioning on a background worker
   - AI chat on a shared LLM gateway: chat history, per-project billing, free-credit replenishment over Redis pub/sub
