@@ -31,7 +31,11 @@
 
 **Highlights**
 
-- 🏥 **Medical imaging platform**: predictive analytics for spinal-disease diagnostics. Led a team of 3; designed the Flask backend, PostgreSQL schemas and secure **Azure** infrastructure for clinical MRI data, including MRI segmentation and muscle-analysis pipelines (PyTorch, DICOM)
+- 🏥 **Medical imaging platform** (FDA-regulated): decision support for spinal disease. Led a team of 3 on the Flask backend, PostgreSQL schemas and **Azure** infrastructure
+  - Envelope encryption for patient data: **Azure Key Vault** keys wrap AES-GCM data keys, with a blind index for search and a dual-write migration of the live system
+  - Polished and fixed the client's analysis pipeline and ran it on Redis/RQ workers on **Azure GPU VMs**: 7 min → under 2 min per study
+  - FDA verification test suite: pytest tests mapped to software requirements, with evidence generated from real runs
+  - Clinician web and Electron apps, direct-to-Blob DICOM uploads, audit trail, OTP login for the patient app
 - 🎓 **Biddaan**: multi-tenant EdTech platform (LMS + coaching-center management) where every institution gets its own site and admin portal
   - Tenant provisioning: per-school subdomains and custom domains, DNS checks, automated Nginx + Let's Encrypt SSL (130+ tenant domains) with health checks and rollback
   - Pro subscription flow with **bKash** payments and post-payment provisioning on a background worker
