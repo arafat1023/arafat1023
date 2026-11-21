@@ -46,9 +46,15 @@
 **Azure** (medical imaging platform)
 - **Key Vault**: envelope encryption, with an RSA key-encryption key wrapping the data-encryption key and access through `DefaultAzureCredential`
 - **Blob Storage** for clinical imaging data, **Azure Functions**, and **Azure ML** endpoints for model scoring
+- Production and test on **Azure Ubuntu VMs**, including **NVIDIA GPU VMs** for the imaging ML workloads, behind a separate Nginx front VM
 
 **AWS**
 - **EC2**, **RDS**, **S3** and **CloudFront** across EdTech client platforms; tenant-scoped S3 uploads on Biddaan
+- A multi-app production **EC2** host serving five apps behind Nginx + PM2
+
+**DigitalOcean**
+- Biddaan's Nginx edge holds **130+ Let's Encrypt certificates** for tenant domains, issued automatically by a config generator I wrote
+- Older platform runs in a **private VPC** behind a jump host, with MongoDB on its own droplet
 
 **CI/CD pipelines I've written**
 - **GitHub Actions**: SSH + PM2 deploys to development and production, test suites against Postgres service containers with Prisma migrations, automated **Google Play** uploads, cross-platform **Rust/Tauri** release builds with macOS signing, GitHub Pages deploys, and an AI pull-request reviewer running **Claude Code**
@@ -139,6 +145,7 @@
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 ![Azure Key Vault](https://img.shields.io/badge/Azure_Key_Vault-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat&logo=digitalocean&logoColor=white)
 ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat&logo=oracle&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
