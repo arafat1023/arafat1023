@@ -66,7 +66,7 @@
 | Project | What it is | Stack |
 |---|---|---|
 | 🌙 **Zikr One** · [App Store](https://apps.apple.com/us/app/zikr-one/id6819017504) · [Google Play](https://play.google.com/store/apps/details?id=com.zikrflow.app) · [zikrone.com](https://zikrone.com) | Community dhikr app: counters, rooms, leaderboards, streaks. I migrated the live app's backend off Firebase and cut every user over | Flutter · NestJS · Prisma · PostgreSQL · Next.js admin |
-| 🛒 **BinduShop** *(in progress)* | Self-hosted e-commerce store for the Bangladesh market | Medusa v2 · Next.js · TypeScript |
+| 🛒 **BinduShop** · [bindushop.com](https://bindushop.com) | Self-hosted e-commerce store for the Bangladesh market | Medusa v2 · Next.js · TypeScript |
 
 **Also building** (private): native macOS apps in **Swift**, a cross-platform desktop app in **Rust + Tauri**, offline-first **Flutter** apps, and SaaS products on **Fastify + PostgreSQL + Vue 3**.
 
