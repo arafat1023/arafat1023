@@ -35,7 +35,6 @@
 - 🎓 **Biddaan**: multi-tenant EdTech platform (LMS + coaching-center management) where every institution gets its own site and admin portal
   - Tenant provisioning: per-school subdomains and custom domains, DNS checks, automated Nginx + Let's Encrypt SSL (130+ tenant domains) with health checks and rollback
   - Pro subscription flow with **bKash** payments and post-payment provisioning on a background worker
-  - AI chat on a shared LLM gateway: chat history, per-project billing, free-credit replenishment over Redis pub/sub
   - Live class comments on a **Redis** write buffer that keeps working through a Redis outage
   - Course and shop payments, quizzes with leaderboards, YouTube playlist import, SMS credit pools, push notifications
   - Tenant uploads moved from Cloudflare R2 to **S3 + CloudFront** under per-school prefixes
