@@ -36,54 +36,39 @@
 - 🤖 **AI Mate**: OpenAI GPT-powered chatbot with REST APIs built from OpenAPI specs and an admin dashboard
 - 💃 **Daency.com**: live dance classes over **WebRTC**, with Stripe payments and Redis queues
 - 📦 **Bikribatta.com**: inventory SaaS; led its **Backbone.js → Vue 3** migration
-- 🧠 Built the **Claude Code** agent harness used on client projects: an 11-skill ticket pipeline (spec → plan → implement → verify → review), path-scoped rules and hooks
 - 📊 Sheraspace: full-stack project-management app (React, Flask, PostgreSQL) with accounts, HR modules, advanced SQL reporting and a 3D SketchUp viewer
 
 ---
 
 ### ☁️ Cloud, DevOps & CI/CD
 
-**Azure** (medical imaging platform)
-- **Key Vault**: envelope encryption, with an RSA key-encryption key wrapping the data-encryption key and access through `DefaultAzureCredential`
-- **Blob Storage** for clinical imaging data, **Azure Functions**, and **Azure ML** endpoints for model scoring
-- Production and test on **Azure Ubuntu VMs**, including **NVIDIA GPU VMs** for the imaging ML workloads, behind a separate Nginx front VM
-
-**AWS**
-- **EC2**, **RDS**, **S3** and **CloudFront** across EdTech client platforms; tenant-scoped S3 uploads on Biddaan
-- A multi-app production **EC2** host serving five apps behind Nginx + PM2
-
-**DigitalOcean**
-- Biddaan's Nginx edge holds **130+ Let's Encrypt certificates** for tenant domains, issued automatically by a config generator I wrote
-- Older platform runs in a **private VPC** behind a jump host, with MongoDB on its own droplet
+**Cloud platforms**
+- **Azure**: Key Vault (envelope encryption, with an RSA key wrapping the data key via `DefaultAzureCredential`), Blob Storage, Functions, Azure ML endpoints, Ubuntu VMs including NVIDIA GPU VMs
+- **AWS**: EC2, RDS, S3, CloudFront
+- **DigitalOcean**: Droplets and private VPC networking with jump hosts
+- **Also**: Oracle Cloud, Cloudflare R2, Firebase
 
 **CI/CD pipelines I've written**
 - **GitHub Actions**: SSH + PM2 deploys to development and production, test suites against Postgres service containers with Prisma migrations, automated **Google Play** uploads, cross-platform **Rust/Tauri** release builds with macOS signing, GitHub Pages deploys, and an AI pull-request reviewer running **Claude Code**
 - **Bitbucket Pipelines**: frontend builds to **S3** with **CloudFront** cache invalidation, plus SSH deploys of backends for several production apps
 
 **Infrastructure**
-- Linux server administration, **Docker** / Docker Compose, **Nginx** reverse proxies, automated SSL provisioning, **PM2**
-- Self-hosted Zikr One's API on **Oracle Cloud** (ARM) with backups and health checks; **Cloudflare R2** for media
+- Linux server administration, **Docker** / Docker Compose, **Nginx** reverse proxies, **PM2**
+- Automated Let's Encrypt SSL provisioning for **130+ tenant domains**
+- Self-managed PostgreSQL, MongoDB and Redis
 
 ---
 
 ### 🧩 Personal Projects
 
-**Shipped**
+**Featured**
 
 | Project | What it is | Stack |
 |---|---|---|
 | 🌙 **Zikr One** · [App Store](https://apps.apple.com/us/app/zikr-one/id6819017504) · [Google Play](https://play.google.com/store/apps/details?id=com.zikrflow.app) · [zikrone.com](https://zikrone.com) | Community dhikr app: counters, rooms, leaderboards, streaks. I migrated the live app's backend off Firebase and cut every user over | Flutter · NestJS · Prisma · PostgreSQL · Next.js admin |
+| 🛒 **BinduShop** *(in progress)* | Self-hosted e-commerce store for the Bangladesh market | Medusa v2 · Next.js · TypeScript |
 
-**Products in progress** *(private repos)*
-
-| Project | What it is | Stack |
-|---|---|---|
-| 📡 **ReqRadar** | Hiring signals for recruitment agencies, read daily from public careers-page job boards | Fastify · PostgreSQL · Vue 3 |
-| 🏥 **QueuePing** | QR-based remote queue tracking for clinics and service desks | Fastify · PostgreSQL · Vue 3 |
-| 🛒 **BinduShop** | Self-hosted e-commerce store for the Bangladesh market | Medusa v2 · Next.js · TypeScript |
-| 🪚 **CutCraft** | Offline woodworking cut-list and sheet optimizer for macOS and Windows | Rust · Tauri · React |
-| 🧘 **Alynn** | Native macOS menu-bar coach for posture, eye strain and sitting time, all on-device | Swift |
-| 📚 **Folune** | Offline ebook reader (EPUB, PDF, FB2) with reading analytics and read-aloud | Flutter |
+**Also building** (private): native macOS apps in **Swift**, a cross-platform desktop app in **Rust + Tauri**, offline-first **Flutter** apps, and SaaS products on **Fastify + PostgreSQL + Vue 3**.
 
 **Open source**
 
