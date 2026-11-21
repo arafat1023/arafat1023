@@ -58,7 +58,7 @@
 - **Also**: Oracle Cloud, Cloudflare R2, Firebase
 
 **CI/CD pipelines I've written**
-- **GitHub Actions**: SSH + PM2 deploys to development and production, test suites against Postgres service containers with Prisma migrations, automated **Google Play** uploads, cross-platform **Rust/Tauri** release builds with macOS signing, GitHub Pages deploys, and an AI pull-request reviewer running **Claude Code**
+- **GitHub Actions**: SSH + PM2 deploys to development and production, test suites against Postgres service containers with Prisma migrations, automated **Google Play** uploads, cross-platform **Rust/Tauri** release builds with macOS signing, and GitHub Pages deploys
 - **Bitbucket Pipelines**: frontend builds to **S3** with **CloudFront** cache invalidation, plus SSH deploys of backends for several production apps
 
 **Infrastructure**
