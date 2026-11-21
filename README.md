@@ -32,7 +32,13 @@
 **Highlights**
 
 - 🏥 **Medical imaging platform**: predictive analytics for spinal-disease diagnostics. Led a team of 3; designed the Flask backend, PostgreSQL schemas and secure **Azure** infrastructure for clinical MRI data, including MRI segmentation and muscle-analysis pipelines (PyTorch, DICOM)
-- 🎓 **Biddaan**: multi-tenant EdTech SaaS. Built tenant subdomain provisioning, custom domains, an automated Nginx + SSL configuration service, and tenant-scoped **S3** uploads
+- 🎓 **Biddaan**: multi-tenant EdTech platform (LMS + coaching-centre management) where every institution gets its own site and admin portal
+  - Tenant provisioning: per-school subdomains and custom domains, DNS checks, automated Nginx + Let's Encrypt SSL (130+ tenant domains) with health checks and rollback
+  - Pro subscription flow with **bKash** payments and post-payment provisioning on a background worker
+  - AI chat on a shared LLM gateway: chat history, per-project billing, free-credit replenishment over Redis pub/sub
+  - Live class comments on a **Redis** write buffer that keeps working through a Redis outage
+  - Course and shop payments, quizzes with leaderboards, YouTube playlist import, SMS credit pools, push notifications
+  - Tenant uploads moved from Cloudflare R2 to **S3 + CloudFront** under per-school prefixes
 - 🤖 **AI Mate**: OpenAI GPT-powered chatbot with REST APIs built from OpenAPI specs and an admin dashboard
 - 💃 **Daency.com**: live dance classes over **WebRTC**, with Stripe payments and Redis queues
 - 📦 **Bikribatta.com**: inventory SaaS; led its **Backbone.js → Vue 3** migration
